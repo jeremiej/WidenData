@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<types xmlns="http://www.qeo.org/formal/2013/Qeo_Data_Model" version="0.1">
+	<include file="qeo_types.xml"/>
+	<module name="com::accenture::cdi::widen::data">
+  		<struct behavior="state" name="Door">
+    		<member name="id" type="string" key="true">
+      			<doc>Unique ID of the door.</doc>
+		    </member>
+    		<member name="open" type="boolean">
+      			<doc>State of the door.</doc>
+    		</member>
+  		</struct>
+  		<struct behavior="event" name="TeddySensor">
+    		<member name="id" type="string">
+      			<doc>Unique ID of the teddy.</doc>
+		    </member>
+  		</struct>
+  		<struct behavior="event" name="BookSensor">
+    		<member name="id" type="string">
+      			<doc>Unique ID of the book.</doc>
+		    </member>
+  		</struct>
+	</module>
+</types>
