@@ -20,5 +20,10 @@
       			<doc>Unique ID of the book.</doc>
 		    </member>
   		</struct>
+  		<struct behavior="event" name="TvRecipeSensor">
+    		<member name="id" type="string">
+      			<doc>Unique ID of the Tv recipe.</doc>
+		    </member>
+  		</struct>
 	</module>
 </types>
